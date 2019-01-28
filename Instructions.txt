@@ -1,0 +1,35 @@
+
+
+As far as I understand, you can run a lot of generic ones that don't have Apple-signed drivers by disabling "System Integrity Protection" (SIP)
+
+From: http://inkandfeet.com/how-to-use-a-generic-usb-20-10100m-ethernet-adaptor-rd9700-on-mac-os-1011-el-capitan
+
+    Steps to get your adapter working if you've never used the adapter before in Mac OS 10.11 El Capitan.
+
+        Uninstall the dozens of other drivers you may have installed in the process of trying to get this working.
+        Unplug your USB adapter, and reboot and give yourself a clean slate.
+        Reboot. As soon as the screen goes black, hold down "Command" and "R" until you see a black screen with an Apple logo and a white progress bar. Let go, and wait for your computer to boot into recovery mode.
+        From the top bar, select "Utilities" and then "Terminal"
+        In the terminal, run csrutil disable.
+        From the top bar, select "", then "Restart"
+        Once you're booted back up, download and install the drivers from the CD, kindly uploaded by this fine human being.
+        Reboot.
+        Open your terminal, and run sudo kextload /System/Library/Extensions/USBCDCEthernet.kext
+        Reboot.
+        Plug in your USB Adapter, with a live ethernet cable.
+        Open System Preferences, and go to the Network Pane.
+        Hit the + button in the bottom right, select the "USB 2.0 10/100M Ethernet Adapter", and hit add.
+        You're all set! Your adapter works!
+        Apologize to the people you care about for the things you've said over the past few hours. They won't understand, but they will forgive you.
+
+I presume that any driver that worked for these types of things pre-Yosemite (10.10) would work for the ones in step 7.
+
+See original page for a discussion on the security risks of using this method. But, if you need it to, and are aware of and OK with the risks, it works.
+
+This worked for me on El Capitan (10.11) with a random off-brand adapter (can't remember the brand or if it even had one).
+shareimprove this answer
+edited Dec 17 '16 at 16:46
+answered Jun 14 '16 at 19:22
+Aaron Wallentine
+17115
+
