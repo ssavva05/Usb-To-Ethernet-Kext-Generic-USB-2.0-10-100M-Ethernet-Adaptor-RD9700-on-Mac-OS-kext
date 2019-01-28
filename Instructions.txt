@@ -1,5 +1,6 @@
+-Instructions from the original creators all credits to them: 
 
-
+From: https://apple.stackexchange.com/questions/214995/how-to-use-3rd-party-usb-ethernet-adapter-with-el-capitan
 As far as I understand, you can run a lot of generic ones that don't have Apple-signed drivers by disabling "System Integrity Protection" (SIP)
 
 From: http://inkandfeet.com/how-to-use-a-generic-usb-20-10100m-ethernet-adaptor-rd9700-on-mac-os-1011-el-capitan
@@ -27,9 +28,7 @@ I presume that any driver that worked for these types of things pre-Yosemite (10
 See original page for a discussion on the security risks of using this method. But, if you need it to, and are aware of and OK with the risks, it works.
 
 This worked for me on El Capitan (10.11) with a random off-brand adapter (can't remember the brand or if it even had one).
-shareimprove this answer
-edited Dec 17 '16 at 16:46
-answered Jun 14 '16 at 19:22
-Aaron Wallentine
-17115
+
+-This Seems that work with mac OS Sierra as well, the driver is loaded properly. More checks Soon!
+
 
