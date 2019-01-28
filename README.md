@@ -1,6 +1,5 @@
 # Generic-USB-2.0-10-100M-Ethernet-Adaptor-RD9700-on-Mac-OS-kext
 
-Before you bash me for writing "adaptor", I just kept the name which is listed when you launch 
 $ system_profiler SPUSBDataType .
 
 USB 2.0 10/100M Ethernet Adaptor:
@@ -14,8 +13,9 @@ USB 2.0 10/100M Ethernet Adaptor:
               Current Available (mA): 500
               Current Required (mA): 120
 
-I hope others can reach to this blog with the query above :)
+the /number e.g. 6 in the location doesn't matter it is just the physical usb port number.
 
-Install it using instructions.txt
-Enjoy.
+Install it using the instructions.txt
+
+Enjoy!
 
