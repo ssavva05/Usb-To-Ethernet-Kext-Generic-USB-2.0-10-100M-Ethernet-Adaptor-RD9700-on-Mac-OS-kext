@@ -1,6 +1,7 @@
 -Instructions from the original creators all credits to them: 
 
 From: https://apple.stackexchange.com/questions/214995/how-to-use-3rd-party-usb-ethernet-adapter-with-el-capitan
+(Also check the ASIX Kexts if you have compatible chip from the stackoverflow link)
 As far as I understand, you can run a lot of generic ones that don't have Apple-signed drivers by disabling "System Integrity Protection" (SIP)
 
 From: http://inkandfeet.com/how-to-use-a-generic-usb-20-10100m-ethernet-adaptor-rd9700-on-mac-os-1011-el-capitan
