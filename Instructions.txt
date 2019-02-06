@@ -15,9 +15,11 @@ From: http://inkandfeet.com/how-to-use-a-generic-usb-20-10100m-ethernet-adaptor-
         In the terminal, run csrutil disable.
         From the top bar, select "", then "Restart"
         Once you're booted back up, download and install the drivers from the CD, kindly uploaded by this fine human being.
+        Install from the x86_64 first.
+        Install from rd9700-mac-driver.
         Reboot.
         Open your terminal, and run sudo kextload /System/Library/Extensions/USBCDCEthernet.kext
-        make executable the permission.sh & run the permission.sh as sudo su
+        make executable the permission.sh & run the permission.sh as sudo su.
         Reboot.
         Plug in your USB Adapter, with a live ethernet cable.
         Open System Preferences, and go to the Network Pane.
