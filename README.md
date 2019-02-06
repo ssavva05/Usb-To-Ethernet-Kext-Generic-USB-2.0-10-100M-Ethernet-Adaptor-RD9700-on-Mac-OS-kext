@@ -1,8 +1,9 @@
 # Usb To Ethernet kext Usb-To-Ethernet-kext-Generic-USB-2.0-10-100M-Ethernet-Adaptor-RD9700-on-Mac-OS-kext
+
 Usb To Ethernet kext Generic-USB-2.0-10-100M-Ethernet-Adaptor-RD9700-on-Mac-OS-kext
 
+-chack your device first:
 $ system_profiler SPUSBDataType .
-
 USB 2.0 10/100M Ethernet Adaptor:
 
               BSD Name: en3
@@ -16,7 +17,7 @@ USB 2.0 10/100M Ethernet Adaptor:
 
 the /number e.g. 6 in the location doesn't matter it is just the physical usb port number.
 
-Install it using the instructions.txt
+-Install it using the instructions.txt
 
-Enjoy!
+-Enjoy!
 
