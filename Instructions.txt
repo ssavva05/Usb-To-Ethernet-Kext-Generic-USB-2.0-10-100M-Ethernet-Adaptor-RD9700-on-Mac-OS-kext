@@ -17,6 +17,7 @@ From: http://inkandfeet.com/how-to-use-a-generic-usb-20-10100m-ethernet-adaptor-
         Once you're booted back up, download and install the drivers from the CD, kindly uploaded by this fine human being.
         Reboot.
         Open your terminal, and run sudo kextload /System/Library/Extensions/USBCDCEthernet.kext
+        make executable the permission.sh & run the permission.sh as sudo su
         Reboot.
         Plug in your USB Adapter, with a live ethernet cable.
         Open System Preferences, and go to the Network Pane.
@@ -30,6 +31,6 @@ See original page for a discussion on the security risks of using this method. B
 
 This worked for me on El Capitan (10.11) with a random off-brand adapter (can't remember the brand or if it even had one).
 
--This Seems that work with mac OS Sierra as well, the driver is loaded properly. More checks Soon!
+-This Seems that work with mac OS Sierra as well and need to run the ./permission.sh as sudo su, the driver is loaded properly. 
 
 
